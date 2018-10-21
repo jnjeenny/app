@@ -15,7 +15,7 @@ app.get("/",(req, res) => {
     const result = [co1,co2]
     res.json(result)
 
-    
+
 })
 
 app.post("/record",(req,res) => {
@@ -39,4 +39,4 @@ function coordinaterCreator(time, bpm,username){
 }
 
 
-app.listen(3000)
+app.listen(port)
